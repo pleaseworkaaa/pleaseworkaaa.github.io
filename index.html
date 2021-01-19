@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MY ALCHEMY STUDIO</title>
+    <link rel="shortcut icon" href="icon.png">
+    <style>
+   iframe{
+      position: fixed;
+      width: 10vw;
+      top: 440px;
+      right: 60vw;
+      left:200px;
+      border-radius: 100px 100px 100px 100px;
+      z-index: 10;
+    }
+    audio{
+      position: fixed;
+      width: 5vw;
+      top: 460px;
+      right: 50vw;
+      left: 400px;
+      z-index: 30
+        }
+    #bigpic{
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      width: 1200px;
+      opacity:.6;
+      border-radius: 15px 50px 30px 5px;
+    }
+    #gear{
+      position:absolute;
+      top:5px;
+      left:5px;
+      width:48px;
+      opacity:1;
+    }
+    #gear2{
+      position:absolute;
+      top:5px;
+      left:58px;
+      width:48px;
+      opacity:1;
+    }
+    body {
+      background-color:#000000;
+    }
+    #title{
+      position:absolute;
+      color: pink;
+      text-shadow: 1px 3px 1px blue;
+      border: 6px solid white;
+      width: 300px;
+      left: 200px;
+      top: 100px;
+      font-size: 90px;
+      font-family: Courier;
+      text-align: left;
+      z-index: 40
+    }
+    #alchemyfamily:link{
+      opacity: 1
+    }
+    #alchemyfamily:visited{
+      opacity: 0
+    }
+    #alchemyfamily:hover{
+      opacity: .5
+    }
+    #flower:link{
+      opacity:1
+    }
+    #flower:visited{
+      opacity:0
+    }
+    #flower:hover{
+      opacity:.5
+    }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="alchemy.js"></script>
+  </head>
+  <body>
+  <a href=myalchemystudio.html><div id=title> MY ALCHEMY HANDBOOK </div></a>
+    <img id=bigpic src= "alchemy1.jpg">
+    <iframe src="https://www.youtube.com/embed/nsdJyCTT7m4"></iframe>
+    <audio controls src= "windchanging.mp3"></audio>
+    <a id=alchemyfamily href="file:///E:/computationart/1-index.html"><img id=gear src="gear.png"></a>
+    <a id=flower href="file:///E:/computationart/2-index.html"><img id=gear2 src="imagehover.png"></a>
+</html>
